@@ -1,0 +1,10 @@
+thermometer - temperature
+barometer - barometric pressure
+hygrometer - humidity
+anemometer - wind speed
+pyranometer - solar radiation
+rain guage - rain amount over time
+windsock - general wind direction
+windvane - general wind speed
+evaporation pan - rain evaporation over time
+disdrometer - raindrop distribution 

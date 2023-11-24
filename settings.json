@@ -1,0 +1,37 @@
+{
+    "gen":{
+        "name":"AMSTAT-WX" // station name / designator
+    },
+
+    "rad":{
+        "mode":"simplex", // mode of operation (simplex, duplex)
+        "band":"vhf", // band of operation (vhf/uhf)
+        "powr":"3", // power level (6/3/1 watt)
+
+        /* if simpelx mode is used, then the RX frequency
+        is used for operation */ 
+        "frq":{
+            "vhf-rx":"145.300", // vhf RX frequency
+            "vhf-tx":"145.325", // vhf TX frequency
+            "uhf-rx":"446.000", // uhf RX frequency
+            "uhf-tx":"446.025" // uhf TX frequency
+        },
+
+        "aprs":{
+            // aprs settings
+            "sign":"XX7XXX", // callsign
+            "ssid":"13", // APRS SSID, 13 is for weather stations
+            "path":"WIDE1-1", // APRS path
+
+            // aprs reports
+            "symbol":"/_", // APRS symbol, '/_' is "WX" symbol
+            "comment":"AMSTAT-WX" // APRS comment
+        }
+    },
+
+    // elements & attatched devices
+    "dev":{
+        // devices
+        
+    }
+}
